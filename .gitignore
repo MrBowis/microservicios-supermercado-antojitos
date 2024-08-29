@@ -1,0 +1,40 @@
+# Ignorar archivos y directorios generados por Django
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar archivos y directorios generados por el entorno virtual
+venv/
+env/
+
+# Ignorar archivos y directorios generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos y directorios específicos del proyecto
+/media/
+/static/
+/db.sqlite3
+
+# Ignorar archivos y directorios de configuración local
+settings_local.py
+
+# Ignorar archivos y directorios de logs
+logs/
+
+# Ignorar archivos y directorios de pruebas
+tests/
+
+# Ignorar archivos y directorios de documentación
+docs/
+
+# Ignorar archivos y directorios de migraciones
+migrations/
+
+# Ignorar archivos y directorios de caché
+__pycache__/
+.cache/
+
+# Ignorar archivos de variables de entorno
+.env
